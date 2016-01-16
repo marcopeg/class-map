@@ -1,14 +1,14 @@
 
 export class ClassMap {
 
-    map = {}
+    map = {};
 
     prefix = {
         before: '',
         after: '',
-    }
+    };
 
-    constructor(map = {}) {
+    constructor() {
         this.add.apply(this, arguments);
     }
 
@@ -91,6 +91,6 @@ export function applyPrefix(value, prefix) {
     }
 
     if (prefix instanceof Object) {
-        return (prefix.before || '') + value + (prefix.after || '');
+        return (prefix.before ||'') + value + (prefix.after ||'');
     }
 }

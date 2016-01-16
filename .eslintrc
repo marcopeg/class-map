@@ -1,13 +1,18 @@
 {
     "parser" : "babel-eslint",
     "env" : {
-        "browser" : true
+        "node" : true,
+        "mocha" : true
     },
+    "extends" : "eslint:recommended",
+    "plugins" : [
+        "nodeca"
+    ],
     "rules" : {
-        "strict" : [2, "never"],
+        "nodeca/indent": [ 2, "spaces", 4 ],
+        "no-console" : 0,
+        "no-irregular-whitespace" : 2,
         "comma-dangle" : [2, "always-multiline"],
-        "semi" : [2, "always"],
-        "no-extra-semi" : 2,
-        "semi-spacing" : [2, {"before": false, "after": false}]
+        "semi" : [2, "always"]
     }
 }
