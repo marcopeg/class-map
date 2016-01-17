@@ -1,6 +1,6 @@
 {
   "name": "class-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Class definition utility for ReactJS and other frameworks",
   "main": "./lib/class-map.js",
   "jsnext:main": "./src/class-map.js",
