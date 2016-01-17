@@ -1,6 +1,6 @@
 {
   "name": "class-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Class definition utility for ReactJS and other frameworks",
   "main": "./lib/class-map.js",
   "jsnext:main": "./src/class-map.js",
@@ -12,7 +12,8 @@
     "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "build:watch": "./node_modules/babel-cli/bin/babel.js --watch src --out-dir lib",
     "clean": "./node_modules/rimraf/bin.js lib coverage",
-    "prepublish": "npm run clean && npm run build && npm test"
+    "prepublish": "npm run clean && npm run build && npm test",
+    "deploy": "publish"
   },
   "repository": {
     "type": "git",
@@ -50,6 +51,7 @@
     "eslint-plugin-nodeca": "^1.0.3",
     "isparta": "^4.0.0",
     "mocha": "^2.3.4",
+    "publish": "^0.5.0",
     "rimraf": "^2.5.0",
     "sinon": "^1.17.2"
   }
