@@ -4,4 +4,5 @@ node_js:
 
 deploy:
   provider: npm
+  email: "marco.pegoraro@gmail.com"
   api_key: "0c406b66-05e7-45b6-9e24-f44a37a4c5fd"
