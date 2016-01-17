@@ -1,6 +1,10 @@
 # ClassMap
 
-Class definition utility for ReactJS
+> Class definition utility for ReactJS
+
+![travisCI](https://travis-ci.org/marcopeg/class-map.svg?branch=master)
+[![npm version](https://img.shields.io/npm/v/class-map.svg?style=flat-square)](https://www.npmjs.com/package/class-map)
+
 
 ## Install & Setup
 
